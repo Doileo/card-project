@@ -42,3 +42,42 @@ body {
     height: 543px;
     width: 327px;
 }
+
+.group-5-elements {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 329px;
+    min-height: 545px;
+    padding: 25px 24px;
+    margin-top: -1px;
+    border-radius: 15px;
+    background-color: #14253f;
+}
+
+.rectangle-copy {
+    width: 278px;
+    height: 278px;
+    margin-right: 1px;
+    object-fit: cover;
+}
+
+.equilibrium-heading {
+    width: 278px;
+    min-height: 28px;
+    margin-top: 24px;
+    margin-right: 1px;
+    font-size: 22px;
+    letter-spacing: 0;
+}
+
+.heading-description {
+    width: 278px;
+    min-height: 52px;
+    margin-top: 12px;
+    margin-right: 1px;
+    line-height: 26px;
+    font-size: 18px;
+    letter-spacing: 0;
+    color: #8BACD9;
+}
