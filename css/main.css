@@ -102,3 +102,52 @@ body {
     color: #8BACD9;
 }
 
+.group-6{
+    display: flex;
+    justify-content: space-between;
+}
+
+.group-3 {
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+img.combined-shape {
+    padding-right: 5px;
+}
+
+.combined-shape-description {
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 19px;
+    color: #00FFF8;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.group-4 {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.shape-1 {
+    padding-right: 5px;
+}
+
+.shape-1-description {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 19px;
+    color: #8BACD9;
+}
+
+.rectangle {
+    background: #2E405A;
+    height: 1px;
+}
+
