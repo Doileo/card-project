@@ -151,3 +151,55 @@ img.combined-shape {
     height: 1px;
 }
 
+.group {
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.oval {
+    width: 33px;
+    border: 1px solid #FFFFFF;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.group p {
+    font-size: 15px;
+    line-height: 19px;
+    color: #8BACD9;
+}
+
+.group a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+a {
+    transition: .2s easy;
+}
+
+a:hover {
+    color:#00FFF8;
+}
+
+.attribution {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 13px;
+    padding-bottom: 30px;
+}
+
+.attribution-details,
+.challenge-member {
+    color: #8BACD9;
+}
+
+.attribution a {
+    text-decoration: none;
+    color: #3366CC;
+}
+
+
+
