@@ -27,8 +27,9 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 10px;
-    min-height: 100vh;
+    padding: 20px;
+    width: 100%;
+    min-height: 90vh;
 }
 
 .container-details {
@@ -88,6 +89,10 @@ body {
     font-size: 22px;
     font-weight: 600;
     letter-spacing: 0;
+}
+
+.equilibrium-heading:hover {
+    color:#00FFF8;
 }
 
 .heading-description {
