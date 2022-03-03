@@ -13,6 +13,7 @@ html {
 
 body {
     width: 100%;
+    position: relative;
     font-family: 'Outfit', sans-serif;
     font-style: normal;
     font-weight: 300;
@@ -27,8 +28,9 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 10px;
-    min-height: 100vh;
+    padding: 20px;
+    width: 100%;
+    min-height: 90vh;
 }
 
 .container-details {
@@ -88,6 +90,11 @@ body {
     font-size: 22px;
     font-weight: 600;
     letter-spacing: 0;
+}
+
+.equilibrium-heading:hover {
+    color:#00FFF8;
+    cursor: pointer;
 }
 
 .heading-description {
@@ -181,6 +188,14 @@ a {
 
 a:hover {
     color:#00FFF8;
+}
+
+footer {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    width: 100%;
+    padding: 50px;
 }
 
 .attribution {
