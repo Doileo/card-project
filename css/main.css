@@ -188,6 +188,14 @@ a:hover {
     color:#00FFF8;
 }
 
+footer {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    width: 100%;
+    padding: 50px;
+}
+
 .attribution {
     display: flex;
     align-items: center;
