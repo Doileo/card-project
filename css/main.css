@@ -215,5 +215,20 @@ footer {
     color: #3366CC;
 }
 
+@media only screen and (min-width: 768px) {
+    footer.attribution {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        font-size: 13px;
+        padding-bottom: 30px;
+    }
+
+    .challenge-member {
+        padding-left: 5px;
+    }
+}
+
 
 
